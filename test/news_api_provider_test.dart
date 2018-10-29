@@ -25,7 +25,7 @@ void main() {
 
     final ItemModel itemModel = await newsApi.fetchItem(1);
     expect(itemModel.id, 34);
-    expect(itemModel.title, 'max pbilli');
+    expect(itemModel.title, 'max billi');
 
   });
 }
